@@ -7,7 +7,7 @@ import java.util.HashMap;
  * This file demonstrates HashMap operations and usage
  * 
  * Run command:
- * javac .\com\buddhadeb\hashing\Main.java
+ * cd x:\DSA-WITH-JAVA\04Hashing; javac -d . *.java
  * java com.buddhadeb.hashing.Main
  */
 public class Main {
