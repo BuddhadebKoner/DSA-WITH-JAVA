@@ -5,7 +5,7 @@ package com.buddhadeb.arraysstrings;
  * This file demonstrates various array and string algorithms
  * 
  * Run command:
- * javac .\com\buddhadeb\arraysstrings\*.java
+ * javac -d . *.java 
  * java com.buddhadeb.arraysstrings.Main
  */
 public class Main {
@@ -16,15 +16,18 @@ public class Main {
       System.out.println("========================================\n");
 
       // 1. Kadane's Algorithm Demo
-      KadaneAlgorithm.demo();
+      // KadaneAlgorithm.demo();
 
       // 2. Majority Element Demo
-      MajorityElement.demo();
+      // MajorityElement.demo();
 
       // 3. Single Number Demo
-      SingleNumber.demo();
+      // SingleNumber.demo();
 
       // 4. Sort Array of 0s, 1s, 2s Demo
-      SortArray012.demo();
+      // SortArray012.demo();
+
+      // 5. subarray sum
+      SubarraySum.demo();
    }
 }
