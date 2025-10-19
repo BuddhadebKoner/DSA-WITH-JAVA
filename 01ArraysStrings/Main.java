@@ -28,6 +28,9 @@ public class Main {
       // SortArray012.demo();
 
       // 5. subarray sum
-      SubarraySum.demo();
+      // SubarraySum.demo();
+
+      // 6. Sliding Window Maximum Demo
+      SlidingWindowMaximum.demo();
    }
 }

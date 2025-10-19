@@ -33,5 +33,9 @@ public class Main {
 
       // 4. Iteration Operations
       IterationOperations.demo(map);
+
+      // 5. Duplicate Value find
+      int result = Duplicate.bruteForce();
+      System.out.println("result: " + result);
    }
 }
