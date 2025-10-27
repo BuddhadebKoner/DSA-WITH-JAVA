@@ -1,8 +1,4 @@
-/**
- * Trees and BST - Main Demo File
- * This file demonstrates tree and binary search tree operations
- */
-public class Main {
+public class Preorder {
 
    static class TreeNode {
       int val;
@@ -31,15 +27,5 @@ public class Main {
       root.right = buildTree(preorder, index);
 
       return root;
-   }
-
-   public static void main(String[] args) {
-      // Sample pre-order array for BST
-      int[] preorder = { 8, 5, 1, 7, 10, 12 };
-
-      // Build BST from pre-order
-      TreeNode root = buildTree(preorder);
-
-      // Tree is built
    }
 }

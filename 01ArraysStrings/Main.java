@@ -31,6 +31,10 @@ public class Main {
       // SubarraySum.demo();
 
       // 6. Sliding Window Maximum Demo
-      SlidingWindowMaximum.demo();
+      // SlidingWindowMaximum.demo();
+
+      // 7. Anagram
+      // Anagram.demo();
+      Anagram.base();
    }
 }

@@ -23,19 +23,19 @@ public class Main {
       System.out.println("Initial Map: " + map);
 
       // 1. Insert Operations
-      InsertOperations.demo(map);
+      // InsertOperations.demo(map);
 
       // 2. Search Operations
-      SearchOperations.demo(map);
+      // SearchOperations.demo(map);
 
       // 3. Get Value by Key
-      GetValueOperations.demo(map);
+      // GetValueOperations.demo(map);
 
       // 4. Iteration Operations
-      IterationOperations.demo(map);
+      // IterationOperations.demo(map);
 
       // 5. Duplicate Value find
-      int result = Duplicate.bruteForce();
-      System.out.println("result: " + result);
+      // int result = Duplicate.bruteForce();
+      // System.out.println("result: " + result);
    }
 }
