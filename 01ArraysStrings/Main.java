@@ -5,7 +5,7 @@ package com.buddhadeb.arraysstrings;
  * This file demonstrates various array and string algorithms
  * 
  * Run command:
- * javac -d . *.java 
+ * javac -d . *.java
  * java com.buddhadeb.arraysstrings.Main
  */
 public class Main {
@@ -35,6 +35,12 @@ public class Main {
 
       // 7. Anagram
       // Anagram.demo();
-      Anagram.base();
+      // Anagram.base();
+
+      // 8. Remove All Occurrences of a Substring
+      // RemoveAllOccurrencesSubstring.demo();
+
+      // 9. palindrom
+      System.out.println("Is palindrome: " + Palindrom.demo());
    }
 }
